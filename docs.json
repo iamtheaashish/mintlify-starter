@@ -1,0 +1,165 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "mint",
+  "name": "Aashish Raj",
+  "description": "Portfolio of Aashish Raj.",
+  "seo": {
+    "metatags": {
+      "og:title": "Aashish Raj",
+      "og:description": "Portfolio of Aashish Raj.",
+      "og:image": "https://aashishraj.me/assets/profile.png",
+      "twitter:card": "summary_large_image",
+      "twitter:title": "Aashish Raj",
+      "twitter:description": "Portfolio of Aashish Raj.",
+      "twitter:image": "https://aashishraj.me/assets/profile.png"
+    },
+    "indexing": "navigable"
+  },
+  "colors": {
+    "primary": "#dc2626",
+    "light": "#f87171",
+    "dark": "#991b1b"
+  },
+  "appearance": {
+    "default": "system",
+    "strict": false
+  },
+  "background": {
+    "decoration": "grid"
+  },
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Profile",
+        "icon": "user",
+        "groups": [
+          {
+            "group": "Introduction",
+            "pages": [
+              "index"
+            ]
+          },
+          {
+            "group": "Influences",
+            "pages": [
+              "influences/books",
+              "influences/papers"
+            ]
+          },
+          {
+            "group": "Projects",
+            "pages": [
+              "output/talks",
+              {
+                "group": "Publications",
+                "expanded": false,
+                "pages": [
+                  "output/papers",
+                  "output/blogs"
+                ]
+              }
+            ]
+          },
+          {
+            "group": "Work",
+            "pages": [
+              {
+                "group": "Jobs",
+                "expanded": false,
+                "pages": [
+                  "jobs/cnb",
+                  "jobs/argonaut",
+                  "jobs/locale",
+                  "jobs/nhost",
+                  "jobs/oversight",
+                  "jobs/instantpost"
+                ]
+              },
+              {
+                "group": "Freelance",
+                "expanded": false,
+                "pages": [
+                  "projects/oversight",
+                  "projects/pragyaan",
+                  "projects/envsecrets"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Socials",
+        "icon": "at",
+        "menu": [
+          {
+            "item": "X / Twitter",
+            "icon": "square-x-twitter",
+            "href": "https://x.com/iamtheaashish",
+            "description": "Post-work unwind."
+          },
+          {
+            "item": "Github",
+            "icon": "github",
+            "href": "https://github.com/iamtheaashish",
+            "description": "All of my code."
+          },
+          {
+            "item": "LinkedIn",
+            "icon": "linkedin",
+            "href": "https://linkedin.com/in/iamtheaashish",
+            "description": "Boring, I rarely check."
+          },
+          {
+            "item": "Email",
+            "icon": "envelope",
+            "href": "mailto:iamtheaashish@gmail.com,iamtheaashish@outlook.com",
+            "description": "Best way to approach me."
+          }
+        ]
+      },
+      {
+        "tab": "Assets",
+        "icon": "files",
+        "menu": [
+          {
+            "item": "Resume",
+            "icon": "file-pdf",
+            "href": "https://drive.google.com/file/d/1ce90LGzK8YrrulUlMNC1jLk7EwzsMzcO/view?usp=sharing",
+            "description": "Updated as of August 2026."
+          },
+          {
+            "item": "Profile Image",
+            "icon": "image-portrait",
+            "href": "https://wah.al/assets/profile.png",
+            "description": "For sending rishtas."
+          }
+        ]
+      }
+    ],
+    "global": {
+      "anchors": [
+        {
+          "anchor": "Blog / Substack",
+          "href": "https://iamtheaashish.substack.com",
+          "icon": "bars-staggered"
+        }
+      ]
+    }
+  },
+  "navbar": {
+    "primary": {
+      "type": "button",
+      "label": "Email Me",
+      "href": "mailto:iamtheaashish@gmail.com,iamtheaashish@outlook.com"
+    }
+  },
+
+  "footer": {
+    "socials": {
+      "x": "https://x.com/iamtheaashish",
+      "github": "https://github.com/iamtheaashish",
+      "linkedin": "https://linkedin.com/in/iamtheaashish"
+    }
+  }
+}
