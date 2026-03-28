@@ -105,10 +105,22 @@
             "description": "All of my code."
           },
           {
+            "item": "Gitlab",
+            "icon": "gitlab",
+            "href": "https://gitlab.com/iamtheaashish",
+            "description": "Some of my code."
+          },
+          {
             "item": "LinkedIn",
             "icon": "linkedin",
             "href": "https://linkedin.com/in/iamtheaashish",
             "description": "Boring, I rarely check."
+          },
+          {
+            "item": "Discord",
+            "icon": "discord",
+            "href": "/",
+            "description": "iamtheaashish"
           },
           {
             "item": "Email",
