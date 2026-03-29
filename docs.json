@@ -28,6 +28,15 @@
     "decoration": "grid"
   },
   "navigation": {
+    "global": {
+      "anchors": [
+        {
+          "anchor": "Blog / Substack",
+          "icon": "bars-staggered",
+          "href": "https://iamtheaashish.substack.com"
+        }
+      ]
+    },
     "tabs": [
       {
         "tab": "Profile",
@@ -43,20 +52,19 @@
             "group": "Influences",
             "pages": [
               "influences/books",
-              "influences/papers"
+              "influences/articles"
             ]
           },
           {
             "group": "Projects",
             "pages": [
-              "output/talks",
               {
-                "group": "Publications",
-                "expanded": false,
-                "pages": [
-                  "output/papers",
-                  "output/blogs"
-                ]
+                "group": "  CLI Tools",
+                "pages": []
+              },
+              {
+                "group": "TUI Apps",
+                "pages": []
               }
             ]
           },
@@ -64,25 +72,9 @@
             "group": "Work",
             "pages": [
               {
-                "group": "Jobs",
-                "expanded": false,
-                "pages": [
-                  "jobs/cnb",
-                  "jobs/argonaut",
-                  "jobs/locale",
-                  "jobs/nhost",
-                  "jobs/oversight",
-                  "jobs/instantpost"
-                ]
-              },
-              {
                 "group": "Freelance",
                 "expanded": false,
-                "pages": [
-                  "projects/oversight",
-                  "projects/pragyaan",
-                  "projects/envsecrets"
-                ]
+                "pages": []
               }
             ]
           }
@@ -93,40 +85,40 @@
         "icon": "at",
         "menu": [
           {
-            "item": "X / Twitter",
-            "icon": "square-x-twitter",
-            "href": "https://x.com/iamtheaashish",
-            "description": "Post-work unwind."
+            "item": "Discord",
+            "icon": "discord",
+            "description": "iamtheaashish",
+            "href": "/"
           },
           {
             "item": "Github",
             "icon": "github",
-            "href": "https://github.com/iamtheaashish",
-            "description": "All of my code."
+            "description": "All of my code.",
+            "href": "https://github.com/iamtheaashish"
           },
           {
             "item": "Gitlab",
             "icon": "gitlab",
-            "href": "https://gitlab.com/iamtheaashish",
-            "description": "Some of my code."
+            "description": "Some of my code.",
+            "href": "https://gitlab.com/iamtheaashish"
           },
           {
             "item": "LinkedIn",
             "icon": "linkedin",
-            "href": "https://linkedin.com/in/iamtheaashish",
-            "description": "Boring, I rarely check."
+            "description": "Boring, I rarely check.",
+            "href": "https://linkedin.com/in/iamtheaashish"
           },
           {
-            "item": "Discord",
-            "icon": "discord",
-            "href": "/",
-            "description": "iamtheaashish"
+            "item": "X / Twitter",
+            "icon": "square-x-twitter",
+            "description": "Post-work unwind.",
+            "href": "https://x.com/iamtheaashish"
           },
           {
             "item": "Email",
             "icon": "envelope",
-            "href": "mailto:iamtheaashish@gmail.com,iamtheaashish@outlook.com",
-            "description": "Best way to approach me."
+            "description": "Best way to approach me.",
+            "href": "mailto:iamtheaashish@gmail.com,iamtheaashish@outlook.com"
           }
         ]
       },
@@ -137,27 +129,17 @@
           {
             "item": "Resume",
             "icon": "file-pdf",
-            "href": "https://drive.google.com/file/d/1ce90LGzK8YrrulUlMNC1jLk7EwzsMzcO/view?usp=sharing",
-            "description": "Updated as of August 2026."
+            "description": "Updated as of August 2026.",
+            "href": "https://drive.google.com/file/d/1ce90LGzK8YrrulUlMNC1jLk7EwzsMzcO/view?usp=sharing"
           },
           {
-            "item": "Profile Image",
+            "item": "My Picture",
             "icon": "image-portrait",
-            "href": "https://wah.al/assets/profile.png",
-            "description": "For sending rishtas."
+            "description": "Those hairs are edited."
           }
         ]
       }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Blog / Substack",
-          "href": "https://iamtheaashish.substack.com",
-          "icon": "bars-staggered"
-        }
-      ]
-    }
+    ]
   },
   "navbar": {
     "primary": {
