@@ -130,12 +130,13 @@
             "item": "Resume",
             "icon": "file-pdf",
             "description": "Updated as of August 2026.",
-            "href": "https://drive.google.com/file/d/1ce90LGzK8YrrulUlMNC1jLk7EwzsMzcO/view?usp=sharing"
+            "href": "https://drive.google.com/"
           },
           {
             "item": "My Picture",
             "icon": "image-portrait",
-            "description": "Those hairs are edited."
+            "description": "Those hairs are edited.",
+            "href": "https://drive.google.com/file/d/1L05QKHia6GmZ00hvsR6heKBmyNVMbmZ4/view?usp=sharing"
           }
         ]
       }
