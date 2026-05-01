@@ -18,8 +18,8 @@
   },
 "colors": {
   "primary": "#2563eb",
-  "light": "#60a5fa",
-  "dark": "#1e3a8a"
+  "light": "#93c5fd",
+  "dark": "#1e40af"
 },
   "appearance": {
     "default": "system",
