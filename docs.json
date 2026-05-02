@@ -44,7 +44,7 @@
         "icon": "user",
         "groups": [
           {
-            "group": "Introduction",
+            "group": "Personal",
             "pages": [
               "index"
             ]
@@ -59,7 +59,13 @@
           {
             "group": "Output",
             "pages": [
-              "output/hardware"
+              "output/projects"
+            ]
+          },
+          {
+            "group": "Extra",
+            "pages": [
+              "extra/hardware"
             ]
           }
         ]
@@ -69,22 +75,16 @@
         "icon": "at",
         "menu": [
           {
-            "item": "Discord",
-            "icon": "discord",
-            "description": "iamtheaashish",
-            "href": "/"
-          },
-          {
             "item": "Github",
             "icon": "github",
             "description": "All of my code.",
             "href": "https://github.com/iamtheaashish"
           },
           {
-            "item": "Gitlab",
-            "icon": "gitlab",
-            "description": "Some of my code.",
-            "href": "https://gitlab.com/iamtheaashish"
+            "item": "Reddit",
+            "icon": "reddit",
+            "description": "Asking quality questions.",
+            "href": "https://www.reddit.com/user/iamtheaashish"
           },
           {
             "item": "LinkedIn",
@@ -137,6 +137,7 @@
   "footer": {
     "socials": {
       "x": "https://x.com/iamtheaashish",
+      "reddit": "https://www.reddit.com/user/iamtheaashish",
       "github": "https://github.com/iamtheaashish",
       "linkedin": "https://linkedin.com/in/iamtheaashish"
     }
