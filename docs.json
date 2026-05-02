@@ -50,33 +50,16 @@
             ]
           },
           {
-            "group": "Influences",
+            "group": "Input",
             "pages": [
-              "influences/books",
-              "influences/articles"
+              "input/books",
+              "input/articles"
             ]
           },
           {
-            "group": "Projects",
+            "group": "Output",
             "pages": [
-              {
-                "group": "  CLI Tools",
-                "pages": []
-              },
-              {
-                "group": "TUI Apps",
-                "pages": []
-              }
-            ]
-          },
-          {
-            "group": "Work",
-            "pages": [
-              {
-                "group": "Freelance",
-                "expanded": false,
-                "pages": []
-              }
+              "output/hardware"
             ]
           }
         ]
