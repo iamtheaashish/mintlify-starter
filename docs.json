@@ -59,7 +59,8 @@
           {
             "group": "Output",
             "pages": [
-              "output/projects"
+              "output/projects",
+              "output/work"
             ]
           },
           {
