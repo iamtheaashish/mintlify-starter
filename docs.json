@@ -3,7 +3,7 @@
   "theme": "mint",
   "name": "Aashish Raj",
   "description": "Portfolio of Aashish Raj.",
-  "favicon": "",
+  "favicon": "favicon.png",
   "seo": {
     "metatags": {
       "og:title": "Aashish Raj",
@@ -16,11 +16,11 @@
     },
     "indexing": "navigable"
   },
-"colors": {
-  "primary": "#2563eb",
-  "light": "#93c5fd",
-  "dark": "#1e40af"
-},
+  "colors": {
+    "primary": "#1da1f2",
+    "light": "#1da1f2",
+    "dark": "#1da1f2"
+  },
   "appearance": {
     "default": "system",
     "strict": false
@@ -133,7 +133,6 @@
       "href": "mailto:iamtheaashish@gmail.com,iamtheaashish@outlook.com"
     }
   },
-
   "footer": {
     "socials": {
       "x": "https://x.com/iamtheaashish",
