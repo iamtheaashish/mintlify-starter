@@ -29,15 +29,7 @@
     "decoration": "grid"
   },
   "navigation": {
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Blog / Substack",
-          "icon": "bars-staggered",
-          "href": "https://iamtheaashish.substack.com"
-        }
-      ]
-    },
+
     "tabs": [
       {
         "tab": "Profile",
