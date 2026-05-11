@@ -52,22 +52,22 @@
           {
             "group": "Input",
             "pages": [
-              "input/books",
-              "input/articles"
+              "input/articles",
+              "input/books"
             ]
           },
           {
             "group": "Output",
             "pages": [
-              "output/projects",
-              "output/work"
+              "output/bytings",
+              "output/projects"
             ]
           },
           {
             "group": "Extra",
             "pages": [
-              "extra/hardware",
-              "extra/grateful"
+              "extra/grateful",
+              "extra/hardware"
             ]
           }
         ]
