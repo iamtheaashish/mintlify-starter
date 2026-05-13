@@ -29,110 +29,115 @@
     "decoration": "grid"
   },
   "navigation": {
-
-    "tabs": [
+    "anchors": [
       {
-        "tab": "Profile",
-        "icon": "user",
-        "groups": [
-          {
-            "group": "Personal",
-            "pages": [
-              "index"
-            ]
-          },
-          {
-            "group": "Input",
-            "pages": [
-              "input/articles",
-              "input/books"
-            ]
-          },
-          {
-            "group": "Output",
-            "pages": [
-              "output/bytings",
-              "output/projects"
-            ]
-          },
-          {
-            "group": "Extra",
-            "pages": [
-              "extra/grateful",
-              "extra/hardware"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "Socials",
-        "icon": "at",
-        "menu": [
-          {
-            "item": "Github",
-            "icon": "github",
-            "description": "All of my code.",
-            "href": "https://github.com/iamtheaashish"
-          },
-          {
-            "item": "Reddit",
-            "icon": "reddit",
-            "description": "Asking quality questions.",
-            "href": "https://www.reddit.com/user/iamtheaashish"
-          },
-          {
-            "item": "LinkedIn",
-            "icon": "linkedin",
-            "description": "Boring, rarely check.",
-            "href": "https://linkedin.com/in/iamtheaashish"
-          },
-          {
-            "item": "X / Twitter",
-            "icon": "square-x-twitter",
-            "description": "Post-work unwind.",
-            "href": "https://x.com/iamtheaashish"
-          },
-          {
-            "item": "Email",
-            "icon": "envelope",
-            "description": "Best way to approach me.",
-            "href": "mailto:iamtheaashish@gmail.com,iamtheaashish@outlook.com"
-          }
-        ]
-      },
-      {
-        "tab": "Assets",
-        "icon": "files",
-        "menu": [
-          {
-            "item": "Resume",
-            "icon": "file-pdf",
-            "description": "Updated as of Aug 2026.",
-            "href": "https://docs.google.com/document/d/1SaZMAavp9Ek40MPcAsV_XAQyS8mYd6nwtxEHXBU7m38/edit?usp=sharing"
-          },
-          {
-            "item": "My Picture",
-            "icon": "image-portrait",
-            "description": "Badly edited hairs. ;(",
-            "href": "https://drive.google.com/file/d/1L05QKHia6GmZ00hvsR6heKBmyNVMbmZ4/view?usp=sharing"
-          }
-        ]
+        "anchor": "Documentation",
+        "icon": "book-open",
+        "href": "https://bytings.substack.com/"
+      }],
+      "tabs": [
+        {
+          "tab": "Profile",
+          "icon": "user",
+          "groups": [
+            {
+              "group": "Personal",
+              "pages": [
+                "index"
+              ]
+            },
+            {
+              "group": "Input",
+              "pages": [
+                "input/articles",
+                "input/books"
+              ]
+            },
+            {
+              "group": "Output",
+              "pages": [
+                "output/bytings",
+                "output/projects"
+              ]
+            },
+            {
+              "group": "Extra",
+              "pages": [
+                "extra/grateful",
+                "extra/hardware"
+              ]
+            }
+          ]
+        },
+        {
+          "tab": "Socials",
+          "icon": "at",
+          "menu": [
+            {
+              "item": "Github",
+              "icon": "github",
+              "description": "All of my code.",
+              "href": "https://github.com/iamtheaashish"
+            },
+            {
+              "item": "Reddit",
+              "icon": "reddit",
+              "description": "Asking quality questions.",
+              "href": "https://www.reddit.com/user/iamtheaashish"
+            },
+            {
+              "item": "LinkedIn",
+              "icon": "linkedin",
+              "description": "Boring, rarely check.",
+              "href": "https://linkedin.com/in/iamtheaashish"
+            },
+            {
+              "item": "X / Twitter",
+              "icon": "square-x-twitter",
+              "description": "Post-work unwind.",
+              "href": "https://x.com/iamtheaashish"
+            },
+            {
+              "item": "Email",
+              "icon": "envelope",
+              "description": "Best way to approach me.",
+              "href": "mailto:iamtheaashish@gmail.com,iamtheaashish@outlook.com"
+            }
+          ]
+        },
+        {
+          "tab": "Assets",
+          "icon": "files",
+          "menu": [
+            {
+              "item": "Resume",
+              "icon": "file-pdf",
+              "description": "Updated as of Aug 2026.",
+              "href": "https://docs.google.com/document/d/1SaZMAavp9Ek40MPcAsV_XAQyS8mYd6nwtxEHXBU7m38/edit?usp=sharing"
+            },
+            {
+              "item": "My Picture",
+              "icon": "image-portrait",
+              "description": "Badly edited hairs. ;(",
+              "href": "https://drive.google.com/file/d/1L05QKHia6GmZ00hvsR6heKBmyNVMbmZ4/view?usp=sharing"
+            }
+          ]
+        }
+      ]
+    },
+    "navbar": {
+      "primary": {
+        "type": "button",
+        "label": "Email Me",
+        "href": "mailto:iamtheaashish@gmail.com,iamtheaashish@outlook.com"
       }
-    ]
-  },
-  "navbar": {
-    "primary": {
-      "type": "button",
-      "label": "Email Me",
-      "href": "mailto:iamtheaashish@gmail.com,iamtheaashish@outlook.com"
-    }
-  },
-  "footer": {
-    "socials": {
-      "x": "https://x.com/iamtheaashish",
-      "reddit": "https://www.reddit.com/user/iamtheaashish",
-      "github": "https://github.com/iamtheaashish",
-      "linkedin": "https://linkedin.com/in/iamtheaashish"
+    },
+    "footer": {
+      "socials": {
+        "x": "https://x.com/iamtheaashish",
+        "reddit": "https://www.reddit.com/user/iamtheaashish",
+        "github": "https://github.com/iamtheaashish",
+        "linkedin": "https://linkedin.com/in/iamtheaashish"
+      }
     }
   }
-}
