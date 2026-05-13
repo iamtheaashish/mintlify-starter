@@ -29,12 +29,14 @@
     "decoration": "grid"
   },
   "navigation": {
+    "global" : {
     "anchors": [
       {
-        "anchor": "Documentation",
-        "icon": "book-open",
+        "anchor": "Blog / Substack",
+        "icon": "bars-staggered",
         "href": "https://bytings.substack.com/"
-      }],
+      } ]
+    },
       "tabs": [
         {
           "tab": "Profile",
