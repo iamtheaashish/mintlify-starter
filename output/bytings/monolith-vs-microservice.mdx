@@ -1,0 +1,118 @@
+---
+title: "Why should you prefer monoliths over microservices?"
+description: "Don't spend resources to solve a non-existent problem."
+
+tags:
+  - Monolith
+  - Microservices
+  - Kubernetes
+  - Docker
+  - Software Architecture
+  - Scalability
+
+categories:
+  - Backend
+  - DevOps
+---
+![monolitic-vs-microservice](/assets/Bytings/mono-vs-micro.png)
+
+# Monolith over Microservices
+
+I can bet it, from whomever you have learned Kubernetes *(pirated CKA clearing courses, pirated books, YouTube videos, etc.)*, they have installed a false opinion about monoliths in your head.
+
+> *"Monolith is grandpa architecture; it has no use in this emerging AI-delulu world."*
+
+I'll shatter that belief of yours.
+
+---
+
+Microservices are **complex**, and in engineering,  
+> *"complexity is the enemy of reliability."*
+
+All this makes debugging harder *(pressing F5 and jumping over method to method in a monolith is easy!)*; you should have a big team if you don't want to bang your head.
+
+No wonder why engineers of **MANGO companies** are paid so much. xD
+
+---
+
+Now you would think,
+
+> *"Microservices are fast and scalable?"*
+
+I'll debunk that as well.
+
+Communication between microservices happens over the internet using message queue systems *(point of failure).* Compare that to the speed of a single application executing on a single machine.
+
+**Network latency will always be higher than the latency of a machine's PCIe bus.** That's a physics limitation; you can't fight that.
+
+If it's about scalability, then yes, monoliths scale well.
+
+A monolith can handle **millions of users** if engineered properly:
+- load balancing
+- caching
+- database optimization
+- etc.
+
+---
+Microservices should **rarely** be used.
+
+I am not against it (I'll also post a DETAILED byting about WHERE it makes more sense.); however, most likely you aren't at a scale like big IT companies.
+
+Because you'll take your most precious resource *(time)* and instead of spending it on:
+- developing new features
+- resolving bugs and issues
+
+You'll spend time figuring out the complexity microservices will bring.
+
+---
+# Distributed Monolith
+
+You absolutely do **not** want a **"distributed monolith"**; you are combining downsides of both.
+
+You are doing a disgrace to yourself.
+
+Be very careful.
+
+If you have to deploy your microservices with your monolith, you have a distributed monolith.
+
+If your database schema is changed for the monolith, and it affects your microservices; you have a distributed monolith.
+
+---
+# Where microservices makes sense ?
+
+Let me give you an example.
+
+You have a college website, and admission happens twice a year, and the registration panel is only open for a few days when you expect a high amount of traffic, so students rush to grab their seats.
+
+You'll have a separate DB, and the registration panel can scale the way that the rest of your application doesn't have to.
+
+And this isn't a distributed monolith.
+
+---
+# Another possiblity
+
+You can make your monoliths loosely coupled.
+
+It'll make sense if you have **ONE BIG monolith.**
+
+Break it apart and run them on Docker.
+
+It'll be:
+- less complex
+- scalable
+- redundant
+
+At the same time you don't need Kubernetes for it.
+
+---
+# End
+
+I wrote it with my current understanding, and that is malleable. It will only improve.
+
+If you have doubts or you disagree with me on some point, comments are open.
+
+---
+
+I'll publish a **Docker refresher byting** next.
+
+It won't be a full tutorial, just the essential part.
