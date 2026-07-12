@@ -46,7 +46,8 @@
           {
             "group": "Personal",
             "pages": [
-              "index"
+              "index",
+              "services"
             ]
           },
           {
