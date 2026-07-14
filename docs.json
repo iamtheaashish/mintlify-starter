@@ -78,27 +78,15 @@
         "icon": "at",
         "menu": [
           {
-            "item": "Slack Workspace",
-            "icon": "slack",
-            "description": "Make me work for you.",
-            "href": "https://iamtheaashish.slack.com"
-          },
-          {
             "item": "Github",
             "icon": "github",
             "description": "All of my code.",
             "href": "https://github.com/iamtheaashish"
           },
           {
-            "item": "Reddit",
-            "icon": "reddit",
-            "description": "Asking quality questions.",
-            "href": "https://www.reddit.com/user/iamtheaashish"
-          },
-          {
             "item": "LinkedIn",
             "icon": "linkedin",
-            "description": "Boring, but I check.",
+            "description": "Boring, rarely check.",
             "href": "https://linkedin.com/in/iamtheaashish"
           },
           {
@@ -123,13 +111,13 @@
             "item": "Resume",
             "icon": "file-pdf",
             "description": "Updated as of Aug 2026.",
-            "href": "https://docs.google.com/document/d/1SaZMAavp9Ek40MPcAsV_XAQyS8mYd6nwtxEHXBU7m38/edit?usp=sharing"
+            "href": "https://1drv.ms/w/c/49b4efd48a2e524e/IQD90BYldtYVQLXyTDIRYo7BAR5PC8LDHTEWC-rE48yOk7c?e=nUtMT5"
           },
           {
             "item": "My Picture",
             "icon": "image-portrait",
             "description": "Badly edited hairs. ;(",
-            "href": "https://drive.google.com/file/d/1L05QKHia6GmZ00hvsR6heKBmyNVMbmZ4/view?usp=sharing"
+            "href": "https://1drv.ms/i/c/49b4efd48a2e524e/IQBiGs62O_zhS4UhowienkIwAVaS0WPNPLUDXn8viDfLC6c?e=Z26eSz"
           }
         ]
       }
@@ -138,13 +126,12 @@
   "navbar": {
     "primary": {
       "type": "button",
-      "label": "Connect on Slack",
-      "href": "https://iamtheaashish.slack.com"
+      "label": "Book a Call",
+      "href": "https://cal.com/iamtheaashish/talk"
     }
   },
   "footer": {
     "socials": {
-      "slack": "https://iamtheaashish.slack.com",
       "github": "https://github.com/iamtheaashish",
       "reddit": "https://www.reddit.com/user/iamtheaashish",
       "linkedin": "https://linkedin.com/in/iamtheaashish",
